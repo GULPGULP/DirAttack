@@ -1,6 +1,6 @@
 from os import path, system, getuid, mkdir
 
-platform = "linux" if path.exists("/usr/bin/") else "termux"
+platform == "linux" if path.exists("/usr/bin/") else "termux"
 data = {
   "termux":"/data/data/com.termux/files/usr/share",
   "linux":"/usr/share",
